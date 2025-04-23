@@ -27,6 +27,18 @@
 .App-link {
   color: #61dafb;
 }
+.error {
+  color: red;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+
+.success {
+  color: green;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
 
 @keyframes App-logo-spin {
   from {
