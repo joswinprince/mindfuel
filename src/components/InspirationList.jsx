@@ -17,12 +17,14 @@ export default function InspirationList() {
     return <p>No inspirations available.</p>;
   }
 
+  console.log(inspirations);
   return (
     <div>
       <h3>Inspirations</h3>
       <ul>
+        //Displaying the list of inspirations
         {inspirations.map((i) => (
-          <li key={i.id}>{i.source} ({i.type}) - Impact: {i.impactLevel}</li>
+          <li key={i.id}>{i.username} ** {i.source} ({i.type}) - Impact: {i.impactLevel}</li>
         ))}
       </ul>
     </div>

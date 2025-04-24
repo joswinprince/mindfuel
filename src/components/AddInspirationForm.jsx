@@ -26,7 +26,7 @@ const AddInspirationForm = ({ onInspirationAdded }) => {
   };
 
   const addInspiration = async (inspiration) => {
-    return axios.post("http://localhost:8085/api/inspiration", inspiration);
+    return axios.post("http://192.168.1.5:8085/api/inspiration", inspiration);
   };
 
   const handleSubmit = async (e) => {
